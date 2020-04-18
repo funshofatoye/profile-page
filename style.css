@@ -177,13 +177,20 @@ input, textarea {
     width: 100%;
     padding: 15px 0 15px 10px;
     border-radius: 5px;
-    border: 1px solid #CCC;
+    /* border: 1px solid #CCC; */
+    border: none;
+    background-color: rgb(245, 245, 245);
 }
 
 input::placeholder, textarea::placeholder, button {
     font-family: 'Pontano Sans', 'Poppins', sans-serif;
     color: #999999;
     font-size: 15px;
+}
+
+input:focus, textarea:focus, button:focus {
+    /* box-shadow: #F2E205 3px 3px 6px; */
+    outline: 3px solid #F2E205;
 }
 
 .form-row {
