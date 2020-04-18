@@ -185,7 +185,7 @@ input, textarea {
     padding: 15px 0 15px 10px;
     border-radius: 5px;
     border: 1px solid #CCC;
-    border: none;
+    /* border: none; */
     /* background-color: rgb(245, 245, 245); */
 }
 
