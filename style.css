@@ -5,6 +5,7 @@ body {
     margin: 0;
     background-color: #F3F3F3;
     font-family: 'Poppins', "Helvetica neue", Helvetica, sans-serif;
+    color: #242326;
 }
 
 .container {
@@ -183,9 +184,9 @@ input, textarea {
     width: 90%;
     padding: 15px 0 15px 10px;
     border-radius: 5px;
-    /* border: 1px solid #CCC; */
+    border: 1px solid #CCC;
     border: none;
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
 }
 
 input::placeholder, textarea::placeholder, button {
